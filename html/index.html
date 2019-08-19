@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/comm.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+</head>
+<!--顶部导航-->
+<header>
+    <div class="top_bar">
+        <!-- 导航按钮-->
+        <div class="top_bar_left">
+            <a href="" class="btn">在线美食</a>
+            <a href="" class="btn">菜谱</a>
+            <a href="" class="btn">食材</a>
+            <a href="" class="btn">珍选</a>
+            <a href="" class="btn">健康</a>
+            <a href="" class="btn">专题</a>
+            <a href="" class="btn">社区</a>
+            <a href="" class="btn">话题</a>
+            <a href="" class="btn">活动</a>
+            <a href="" class="btn">搜索</a>
+        </div>
+        <div class="top_bar_right">
+            <div class="bar_left">
+                <a href="register.html" class="btn">注册</a>
+                <a href="login.html" class="btn">登录</a>
+            </div>
+            <!-- 下拉选择框-->
+            <div class="dropdown bar_right" data-toggle="dropdown">
+                <a href="" class="btn">登录方式</a>
+                <ul class="list-unstyled dropdown-menu">
+                    <li>QQ登录</li>
+                    <li>微信登录</li>
+                    <li>微博登录</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+<div class="container">
+    <!-- 主体内容-->
+    <div class="top mt-3 mb-2">
+        <!-- 栅格布局-->
+        <div class="row w-100">
+            <!-- logo图片-->
+            <div class="col-2 px-0">
+                <img src="../img/logo.png" alt="" class="logo"/>
+            </div>
+            <!-- 导航-->
+            <div class="col-7 px-0">
+                <ul class="list-unstyled nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">菜谱</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">食材</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">珍选</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">健康</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">专题</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">社区</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">话题</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 搜索框-->
+            <div class="col-3 px-0">
+                <input type="text" class="search" placeholder="请输入搜索内容"/>
+            </div>
+        </div>
+    </div>
+    <!-- 主体内容中部-->
+    <div class="middle">
+        <!-- 轮播图-->
+        <!-- 图片-->
+        <div id="lunbo" class="carousel" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="">
+                        <img src="../img/lunbo1.jpg" alt="" class="w-100"/>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <img src="../img/lunbo2.jpg" alt="" class="w-100"/>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <img src="../img/lunbo3.jpg" alt="" class="w-100"/>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <img src="../img/lunbo4.jpg" alt="" class="w-100"/>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <img src="../img/lunbo5.jpg" alt="" class="w-100"/>
+                    </a>
+                </div>
+            </div>
+            <!-- 左右箭头-->
+            <a href="#lunbo" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#lunbo" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <!-- 轮播指示器-->
+            <ul class="carousel-indicators">
+                <li data-target="#lunbo" data-slide-to="0" class="active"></li>
+                <li data-target="#lunbo" data-slide-to="1"></li>
+                <li data-target="#lunbo" data-slide-to="2"></li>
+                <li data-target="#lunbo" data-slide-to="3"></li>
+                <li data-target="#lunbo" data-slide-to="4"></li>
+            </ul>
+        </div>
+        <!-- 广告栏-->
+        <div class="adverse">
+            <div class="row mx-0">
+                <div class="col-4 mx-0">
+                    <p><a href="">让人欲罢不能的烧烤</a></p>
+                    <span>撸串是对夏天最起码的尊重，有如此多的美食伴随，约上好友一起开撸，人生是如此的得意啊。</span>
+                </div>
+                <div class="col-4 mx-0">
+                    <p><a href="">佐粥小菜</a></p>
+                    <span>早餐时来一款小咸菜，配上一碗白粥，几口馒头和饼，典型的中式早餐，值得回味的中式体验。</span>
+                </div>
+                <div class="col-4 mx-0">
+                    <p><a href="">家常卤味合集</a></p>
+                    <span>不同的食材有不同的口感，却都可以做到吮指留香，下面这些卤味真是让人忍不住一口接一口。</span>
+                </div>
+            </div>
+        </div>
+        <!-- 选项卡导航-->
+        <!-- 水平导航栏-->
+        <!--<ul class="nav nav-tabs mt-2">-->
+            <!--<li class="nav-item">-->
+                <!--<a href="#menu" class="nav-link" data-toggle="tab">-->
+                    <!--菜谱大全-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+                <!--<a href="#food" class="nav-link" data-toggle="tab">-->
+                    <!--食材大全-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+                <!--<a href="#healthy" class="nav-link" data-toggle="tab">-->
+                    <!--饮食健康-->
+                <!--</a>-->
+            <!--</li>-->
+        <!--</ul>-->
+        <!--&lt;!&ndash; 显示的内容&ndash;&gt;-->
+        <!--<div class="tab-content all">-->
+            <!--<div class="tab-pane active"  id="menu">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">一周热门</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">人气菜肴</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">冬季食谱</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">早餐</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">高颜值</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">凉菜</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">热菜</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">主食</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">小吃</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">酱腌泡菜</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">新秀菜谱</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">所有分类</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="tab-pane" id="food">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">最新推荐</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">隐式常识</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">瘦身美容</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">气血双补</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">痛经</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">驱寒暖身</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">对抗雾霾</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">失眠</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">食疗食补</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="tab-pane" id="healthy">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">秋葵</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">西红柿</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">黑木耳</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">小龙虾</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">螃蟹</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">鸡翅</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">肉禽菜</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">水产品</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">蔬菜瓜菌</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">鲜果干果</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">米面豆乳</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                        <!--<a href="" classs="btn">营养排行</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="nav_list1">
+            <!-- 选项卡导航-->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#health" class="nav-link" data-toggle="tab">健康</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#diet" class="nav-link" data-toggle="tab">食疗</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link" data-toggle="tab">健康首页</a>
+                </li>
+            </ul>
+            <!-- 显示的内容-->
+            <div class="tab-content">
+                <div class="tab-pane active"  id="health">
+                    <img src="../img/healthy.jpg" alt=""/>
+                    <ul>
+                        <li>
+                            <a href="">夏天消化不良，这些食物有助于消化</a>
+                        </li>
+                        <li>
+                            <a href="">爱吃辣，小心这些风险</a>
+                        </li>
+                        <li>
+                            <a href="">便秘难言，食疗帮你缓解</a>
+                        </li>
+                        <li>
+                            <a href="">清肺去火，排毒食疗是首选</a>
+                        </li>
+                        <li>
+                            <a href="">专题|那些美艳失物的神级吃法</a>
+                        </li>
+                        <li>
+                            <a href="">专题|低卡减肥餐，让你瘦到飞起来</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="diet">
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">瘦身</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">丰胸</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">养颜</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">排毒</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">补钙</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">贫血</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">滋阴</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">壮阳</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">失眠</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">消暑</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">免疫力</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">养胃</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">痛经</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">月经不调</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">前列腺</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">抗衰老</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">防辐射</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">抗雾霾</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_list2 ml-3">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#baking" class="nav-link" data-toggle="tab">烘焙</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recipes" class="nav-link" data-toggle="tab">食谱</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recipes" class="nav-link" data-toggle="tab">烘焙专区</a>
+                </li>
+            </ul>
+            <!-- 显示的内容-->
+            <div class="tab-content">
+                <div class="tab-pane active" id="baking">
+                    <img src="../img/baking.jpg" alt=""/>
+                    <ul>
+                        <li>
+                            <a href="">这些挑水果小窍门，你知道吗？</a>
+                        </li>
+                        <li>
+                            <a href="">网红肉松小贝，在家就能做</a>
+                        </li>
+                        <li>
+                            <a href="">内藏惊喜的彩虹戚风蛋糕</a>
+                        </li>
+                        <li>
+                            <a href="">消耗蛋挞皮-简单版红薯酥</a>
+                        </li>
+                        <li>
+                            <a href="">菜单|奥利奥的N种百搭吃法</a>
+                        </li>
+                        <li>
+                            <a href="">菜单|另类咸香口，满足你的味蕾</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="recipes">
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">吐司</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">三明治</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">马芬</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">布朗尼</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">蛋糕卷</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">玛德琳</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">舒芙蕾</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">纸杯蛋糕</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">戚风</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">马卡龙</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">糖霜饼干</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">曲奇</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">披萨</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">泡芙</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">蛋挞</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">派塔</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">中式糕点</a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="btn border-dark">酥</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_list3 ml-3">
+            <!-- 选项卡导航-->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#recommend" class="nav-link" data-toggle="tab">为您推荐</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link" data-toggle="tab">我的收藏</a>
+                </li>
+            </ul>
+            <!-- 显示的内容-->
+            <div class="tab-content">
+                <div class="tab-pane active"  id="recommond">
+                    <img src="../img/remmond.jpg" alt=""/>
+                    <ul>
+                        <li>
+                            <a href="">孩子提高免疫力，健康过春季</a>
+                        </li>
+                        <li>
+                            <a href="">划重点！食物降血脂这些更有效</a>
+                        </li>
+                        <li>
+                            <a href="">粗粮细作：健康能量燕麦甜品</a>
+                        </li>
+                        <li>
+                            <a href="">妈妈派|童趣童味，儿童创意餐点</a>
+                        </li>
+                        <li>
+                            <a href="">免费抽奖|ACA手持电动打蛋器</a>
+                        </li>
+                        <li>
+                            <a href="">免费抽奖|AVA TM33HT家用烤箱</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="menu_kind">
+            <div class="kind">
+                <a href="">热菜</a>
+                <a href="">凉菜</a>
+                <a href="">汤羹</a>
+                <a href="">主食</a>
+                <a href="">小吃</a>
+                <a href="">西餐</a>
+                <a href="">菜谱首页</a>
+            </div>
+            <div class="menu">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a href="#new_menu" class="nav-link" data-toggle="tab">新秀菜谱</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#week_new" class="nav-link" data-toggle="tab">一周热门</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#popular_taste" class="nav-link" data-toggle="tab">最受欢迎的家常菜</a>
+                    </li>
+                </ul>
+                <!-- 显示的内容-->
+                <div class="tab-content">
+                    <div class="tab-pane active"  id="new_menu">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="bailiangfen.html">
+                                    <div class="img">
+                                        <img src="../img/1.jpg" alt=""/>
+                                    </div>
+                                    <p>白凉粉</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/2.jpg" alt=""/>
+                                    </div>
+                                    <p>素三鲜包子</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/3.jpg" alt=""/>
+                                    </div>
+                                    <p>蒜香虾仁发丝面</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/4.jpg" alt=""/>
+                                    </div>
+                                    <p>香酥花生米</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="img">
+                                    <img src="../img/5.jpg" alt=""/>
+                                </div>
+                                <p>麻辣羊肉</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/6.jpg" alt=""/>
+                                    </div>
+                                    <p>红烧鲈鱼</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/7.jpg" alt=""/>
+                                    </div>
+                                    <p>蓝莓面包卷</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/8.jpg" alt=""/>
+                                    </div>
+                                    <p>琼浆米露</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/9.jpg" alt=""/>
+                                    </div>
+                                    <p>番茄毛豆汤</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/10.jpg" alt=""/>
+                                    </div>
+                                    <p>六寸青芝士蛋糕</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/11.jpg" alt=""/>
+                                    </div>
+                                    <p>教堂杏仁巧克力派</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/12.jpg" alt=""/>
+                                    </div>
+                                    <p>奶香豆沙卷</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/13.jpg" alt=""/>
+                                    </div>
+                                    <p>香辣锅</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/14.jpg" alt=""/>
+                                    </div>
+                                    <p>双芝奶酥脆饼干</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/15.jpg" alt=""/>
+                                    </div>
+                                    <p>人参果绿豆汤</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/16.jpg" alt=""/>
+                                    </div>
+                                    <p>蒜蓉辣酱拌秋葵</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/17.jpg" alt=""/>
+                                    </div>
+                                    <p>小葱拌豆腐</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/18.jpg" alt=""/>
+                                    </div>
+                                    <p>冬瓜虾皮海带汤</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/19.jpg" alt=""/>
+                                    </div>
+                                    <p>西红柿蛋花汤</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/20.jpg" alt=""/>
+                                    </div>
+                                    <p>焦糖海盐芝士冰淇淋</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="week_new">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/21.jpg" alt=""/>
+                                    </div>
+                                    <p>蚝油烧茄子</p>
+                                </a>
+                                >
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/22.jpg" alt=""/>
+                                    </div>
+                                    <p>煎茄饼</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/23.jpg" alt=""/>
+                                    </div>
+                                    <p>万能家庭卤汁</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/24.jpg" alt=""/>
+                                    </div>
+                                    <p>懒人披萨</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="img">
+                                    <img src="../img/25.jpg" alt=""/>
+                                </div>
+                                <p>油爆虾</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/26.jpg" alt=""/>
+                                    </div>
+                                    <p>酸辣粉</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/27.jpg" alt=""/>
+                                    </div>
+                                    <p>孜然土豆</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/28.jpg" alt=""/>
+                                    </div>
+                                    <p>青椒洋葱回锅肉</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/29.jpg" alt=""/>
+                                    </div>
+                                    <p>葱油拌面</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/30.jpg" alt=""/>
+                                    </div>
+                                    <p>凉拌黄瓜杏鲍菇</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/31.jpg" alt=""/>
+                                    </div>
+                                    <p>南瓜糯米团子</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/32.jpg" alt=""/>
+                                    </div>
+                                    <p>茶树菇炖鸡</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/33.jpg" alt=""/>
+                                    </div>
+                                    <p>大虾粉丝煲</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/34.jpg" alt=""/>
+                                    </div>
+                                    <p>麻辣鸡丝凉面</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/35.jpg" alt=""/>
+                                    </div>
+                                    <p>百香果果冻</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/36.jpg" alt=""/>
+                                    </div>
+                                    <p>鸡蛋丝瓜汤</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/37.jpg" alt=""/>
+                                    </div>
+                                    <p>香辣锅</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/38.jpg" alt=""/>
+                                    </div>
+                                    <p>南瓜珍珠丸子</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/39.jpg" alt=""/>
+                                    </div>
+                                    <p>农家一碗香</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/40.jpg" alt=""/>
+                                    </div>
+                                    <p>炸酱面</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="popular_taste">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/41.jpg" alt=""/>
+                                    </div>
+                                    <p>红烧肉</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/42.jpg" alt=""/>
+                                    </div>
+                                    <p>红烧茄子</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/43.jpg" alt=""/>
+                                    </div>
+                                    <p>宫保鸡丁</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/44.jpg" alt=""/>
+                                    </div>
+                                    <p>麻辣香锅</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/45.jpg" alt=""/>
+                                    </div>
+                                    <p>红烧排骨</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/46.jpg" alt=""/>
+                                    </div>
+                                    <p>糖醋排骨</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/47.jpg" alt=""/>
+                                    </div>
+                                    <p>鱼香肉丝</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/48.jpg" alt=""/>
+                                    </div>
+                                    <p>可乐鸡翅</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/49.jpg" alt=""/>
+                                    </div>
+                                    <p>麻婆豆腐</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/50.jpg" alt=""/>
+                                    </div>
+                                    <p>佛跳墙</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/51.jpg" alt=""/>
+                                    </div>
+                                    <p>水煮肉片</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/52.jpg" alt=""/>
+                                    </div>
+                                    <p>红烧鱼</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/53.jpg" alt=""/>
+                                    </div>
+                                    <p>沙拉</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/54.jpg" alt=""/>
+                                    </div>
+                                    <p>西红柿炒鸡蛋</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/55.jpg" alt=""/>
+                                    </div>
+                                    <p>蛋炒饭</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/56.jpg" alt=""/>
+                                    </div>
+                                    <p>鸡蛋饼</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/57.jpg" alt=""/>
+                                    </div>
+                                    <p>口水鸡</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/58.jpg" alt=""/>
+                                    </div>
+                                    <p>水煮鱼</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/59.jpg" alt=""/>
+                                    </div>
+                                    <p>啤酒鸭</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../img/60.jpg" alt=""/>
+                                    </div>
+                                    <p>麻辣烫</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ingredients">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#Seasonal_ingredients" class="nav-link" data-toggle="tab">时令食材</a>
+                </li>
+            </ul>
+            <div class="tab-pane" id="Seasonal_ingredients">
+                <div class="row">
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/61.jpg" alt=""/>
+                            <p>西红柿</p>
+                            <p>美白防晒首选</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/62.jpg" alt=""/>
+                            <p>黄瓜</p>
+                            <p>厨房里的美容师</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/63.jpg" alt=""/>
+                            <p>苦瓜</p>
+                            <p>苦尽甘来</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/64.jpg" alt=""/>
+                            <p>西瓜</p>
+                            <p>群众宠儿</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/65.png" alt=""/>
+                            <p>茄子</p>
+                            <p>微笑的代名词</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/66.jpg" alt=""/>
+                            <p>西蓝花</p>
+                            <p>蔬菜皇冠</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/67.jpg" alt=""/>
+                            <p>毛豆</p>
+                            <p>夏日圣斗士</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/68.jpg" alt=""/>
+                            <p>小龙虾</p>
+                            <p>万年网红</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/69.jpg" alt=""/>
+                            <p>猪里脊</p>
+                            <p>超嫩小鲜肉</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/70.jpg" alt=""/>
+                            <p>皮皮虾</p>
+                            <p>天生美味难自弃</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/71.jpg" alt=""/>
+                            <p>生蚝</p>
+                            <p>海中牛奶</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/72.jpg" alt=""/>
+                            <p>鲈鱼</p>
+                            <p>但爱鲈鱼美</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/73.jpg" alt=""/>
+                            <p>鸡翅</p>
+                            <p>老少通吃</p>
+                        </a>
+                    </div>
+                    <div class="col px-0">
+                        <a href="">
+                            <img src="../img/74.jpg" alt=""/>
+                            <p>排骨</p>
+                            <p>可记得吮指之乐</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    版权所有&copy;2004-2019 美食天下 保留所有权利-----京公网安备11010502031041号/京ICP证090244号/京ICP备10020153号
+</footer>
+</body>
+</html>

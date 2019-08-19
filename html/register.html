@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/comm.css"/>
+    <link rel="stylesheet" href="../css/regisiter.css"/>
+</head>
+<body>
+<div class="container">
+    <!-- 选项卡导航-->
+    <ul class="nav nav-tabs">
+         <li>
+             <a href="#name" class="nav-link" data-toggle="tab">用户名注册</a>
+         </li>
+         <li>
+             <a href="#other" class="nav-link" data-toggle="tab">其他注册方式</a>
+         </li>
+    </ul>
+    <!-- 显示的内容-->
+    <div class="tab-content">
+        <div class="tab-pane active" id="name">
+            <form action="/reg" method="post">
+                <div class="row">
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>昵称：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="text" name="uname">
+                    </div>
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>用户名：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="text" name="user_name">
+                    </div>
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>密码：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="password" name="upwd">
+                    </div>
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>头像：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="text" name="avatar">
+                    </div>
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>性别：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="text" name="gender">
+                    </div>
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>年龄：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="text" name="age"/>
+                    </div>
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>邮箱：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="text" name="email">
+                    </div>
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>电话：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="text" name="phone">
+                    </div>
+                    <div class="col-md-2 col-sm-12 offset-md-3">
+                        <span>地址：</span>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <input type="text" name="address">
+                    </div>
+                    <div class="col-sm-12 offset-md-3">
+                        <a href="" class="my_btn">提交</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="tab-pane" id="other">
+            <table>
+                <tr>
+                    <td>
+                        <span>第三方账号登录</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../img/qq.jpg" alt=""/>
+                        <img src="../img/weixin.jpg" alt=""/>
+                        <img src="../img/weibo.jpg" alt=""/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-image:url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    width:1000px;
+    margin:0 auto;
+    padding:0;
+    margin-top:150px;
+}
+.nav{
+    width:530px;
+    margin:0 auto;
+}
+table{
+    width:530px;
+    margin:0 auto;
+}
+table span{
+    font-weight: bold;
+    font-size:20px;
+}
+input{
+    display:inline-block;;
+    width:200px;
+    border:0;
+    background-color:rgba(255,255,255,0.3);
+}
+form div+div{
+    margin-top:0.3rem;
+}
+img{
+    width:40px;
+    height:40px;
+}
+tr img+img:before{
+    margin-left:5rem;
+}
+tr{
+    text-align: center;
+}
+.nav-tabs{
+    border:0;
+}
+.my_btn{
+    display: inline-block;
+    width:400px;
+    height:40px;
+    background:#ff6767;
+    font-size:16px;
+    color:#fff;
+    text-align:center;
+    line-height: 40px;
+}
