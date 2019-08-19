@@ -8,43 +8,10 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/comm.css"/>
     <link rel="stylesheet" href="../css/index.css"/>
 </head>
-<!--顶部导航-->
-<header>
-    <div class="top_bar">
-        <!-- 导航按钮-->
-        <div class="top_bar_left">
-            <a href="" class="btn">在线美食</a>
-            <a href="" class="btn">菜谱</a>
-            <a href="" class="btn">食材</a>
-            <a href="" class="btn">珍选</a>
-            <a href="" class="btn">健康</a>
-            <a href="" class="btn">专题</a>
-            <a href="" class="btn">社区</a>
-            <a href="" class="btn">话题</a>
-            <a href="" class="btn">活动</a>
-            <a href="" class="btn">搜索</a>
-        </div>
-        <div class="top_bar_right">
-            <div class="bar_left">
-                <a href="register.html" class="btn">注册</a>
-                <a href="login.html" class="btn">登录</a>
-            </div>
-            <!-- 下拉选择框-->
-            <div class="dropdown bar_right" data-toggle="dropdown">
-                <a href="" class="btn">登录方式</a>
-                <ul class="list-unstyled dropdown-menu">
-                    <li>QQ登录</li>
-                    <li>微信登录</li>
-                    <li>微博登录</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
 <body>
+<header id="header"></header>
 <div class="container">
     <!-- 主体内容-->
     <div class="top mt-3 mb-2">
@@ -93,7 +60,49 @@
     <div class="middle">
         <!-- 轮播图-->
         <!-- 图片-->
-        <div id="lunbo" class="carousel" data-ride="carousel">
+        <div id="banner">
+            <div id="btn-left"></div>
+            <ul id="ul_imgs">
+                <li>
+                    <a href="">
+                        <img src="../img/lunbo1.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../img/lunbo2.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../img/lunbo3.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../img/lunbo4.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../img/lunbo5.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../img/lunbo1.jpg">
+                    </a>
+                </li>
+            </ul>
+            <ul id="ul_idxs">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div id="btn_right"></div>
+        </div>
+        <!-- <div id="lunbo" class="carousel" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="">
@@ -120,23 +129,23 @@
                         <img src="../img/lunbo5.jpg" alt="" class="w-100"/>
                     </a>
                 </div>
-            </div>
+            </div>-->
             <!-- 左右箭头-->
-            <a href="#lunbo" class="carousel-control-prev" data-slide="prev">
+            <!-- <a href="#lunbo" class="carousel-control-prev" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </a>
             <a href="#lunbo" class="carousel-control-next" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
-            </a>
+            </a>-->
             <!-- 轮播指示器-->
-            <ul class="carousel-indicators">
+            <!-- <ul class="carousel-indicators">
                 <li data-target="#lunbo" data-slide-to="0" class="active"></li>
                 <li data-target="#lunbo" data-slide-to="1"></li>
                 <li data-target="#lunbo" data-slide-to="2"></li>
                 <li data-target="#lunbo" data-slide-to="3"></li>
                 <li data-target="#lunbo" data-slide-to="4"></li>
-            </ul>
-        </div>
+            </ul> 
+        </div>-->
         <!-- 广告栏-->
         <div class="adverse">
             <div class="row mx-0">
@@ -1148,6 +1157,8 @@
         </div>
     </div>
 </div>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/header.js"></script>
 <footer>
     版权所有&copy;2004-2019 美食天下 保留所有权利-----京公网安备11010502031041号/京ICP证090244号/京ICP备10020153号
 </footer>
