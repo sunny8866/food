@@ -9,11 +9,12 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/index.css"/>
+    <script src="../js/index.js"></script>
 </head>
 <body>
 <header id="header"></header>
 <div class="container">
-    <!-- 主体内容-->
+    <!-- 主体导航栏-->
     <div class="top mt-3 mb-2">
         <!-- 栅格布局-->
         <div class="row w-100">
@@ -56,13 +57,11 @@
             </div>
         </div>
     </div>
-    <!-- 主体内容中部-->
     <div class="middle">
         <!-- 轮播图-->
-        <!-- 图片-->
         <div id="banner">
-            <div id="btn-left"></div>
-            <ul id="ul_imgs">
+            <div id="btn_left"></div>
+            <ul id="ul_imgs" class="transition"> 
                 <li>
                     <a href="">
                         <img src="../img/lunbo1.jpg">
@@ -96,6 +95,7 @@
             </ul>
             <ul id="ul_idxs">
                 <li class="active"></li>
+                <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
