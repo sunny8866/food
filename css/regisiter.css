@@ -9,6 +9,12 @@ body{
     padding:0;
     margin-top:150px;
 }
+.tab-content{
+    width:600px;
+    background-color:rgba(0,0,0,0.1);
+    font-weight: bold;
+    margin:0 auto;
+}
 .nav{
     width:530px;
     margin:0 auto;
@@ -23,7 +29,7 @@ table span{
 }
 input{
     display:inline-block;;
-    width:200px;
+    width:80%;
     border:0;
     background-color:rgba(255,255,255,0.3);
 }

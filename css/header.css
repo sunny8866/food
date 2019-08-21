@@ -8,7 +8,7 @@ a:hover{
 .container{
     width:1000px;
 }
-/*头部标识样式*/
+/*头锟斤拷锟斤拷识锟斤拷式*/
 .top_bar{
     width:100%;
     height:40px;
@@ -26,7 +26,7 @@ a:hover{
     float:right;
 }
 .top_bar a{
-    color:#999;
+    color:#999 !important;
     font-size:14px;
     line-height: 40px;
     padding:0 0.75rem;

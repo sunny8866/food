@@ -1,0 +1,10 @@
+a{
+    text-decoration:none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration:none;
+}
+.container{
+    width:1000px!important;
+}
